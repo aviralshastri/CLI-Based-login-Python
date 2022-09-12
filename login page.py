@@ -12,7 +12,7 @@ def otpgenrator(x):
   # Then go to security you will find app password option create one and choose others in select app & name it.
   # Paste the password that you created.
   # Also paste the gmail id you used to create this password.
-  # Lastly paste app password and gmail id in the respective fields below.
+  # Lastly paste app password and gmail id in the respective fields above.
 
     return otp
 
