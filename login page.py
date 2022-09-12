@@ -33,7 +33,7 @@ def login():
                  if k == otp:
                      print("Login succesfull!!")
                      break
-                 elif k !=otp:
+                 else:
                      print("Wrong otp")
                      print("Re-enter the otp")
              break
