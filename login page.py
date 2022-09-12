@@ -5,7 +5,7 @@ def otpgenrator(x):
     otp=''.join([str(random.randint(0,9))for i in range (0,4)])
     server=smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
-    server.login('otpbot01@gmail.com','bpcuzmrwrboatjdl')
+    server.login('your gmail adress','your gmail id pass')
     server.sendmail('otpbot01',x,otp)
     return otp
 
