@@ -5,8 +5,8 @@ def otpgenrator(x):
     otp=''.join([str(random.randint(0,9))for i in range (0,4)])
     server=smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
-    server.login('your gmail address with "@gmail.com"','your gmail app password')
-    server.sendmail('your gmail address without "@gmail.com"',x,otp)
+    server.login('your gmail address with "@gmail.com" ','your gmail app password')
+    server.sendmail('your gmail address without "@gmail.com" ',x,otp)
     
   # To create gmail app password just turn on two step verification. 
   # Then go to security you will find app password option create one and choose others in select app & name it.
