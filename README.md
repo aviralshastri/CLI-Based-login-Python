@@ -9,14 +9,14 @@ Before using this program, ensure that you have the following:
 1. Python installed on your machine.
 2. Enable two-step verification for your Gmail account.
 3. Create an "App Password" for your Gmail account to use in the program.
-4. Create the "idpassword.txt" in same folder as python script.
+4. Create the "user_credentials.txt" in same folder as python script.
 
 ## How to Use
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/CLI-Based-login-Python.git
+   git clone https://github.com/aviralshastri/CLI-Based-login-Python.git
 
 2. Navigate to the project directory:
 
@@ -31,7 +31,7 @@ Before using this program, ensure that you have the following:
 4. Run the program:
 
    ```bash
-   python login_system.py
+   python simple_login_system.py
 
 ## Important Note
 
